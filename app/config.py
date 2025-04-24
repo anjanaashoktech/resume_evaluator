@@ -20,6 +20,6 @@ class Settings(BaseSettings):
 
 settings = Settings()
 
-# Simple check on import
+
 if not settings.supabase_url or not settings.supabase_key:
     print("WARNING: Supabase credentials not found in .env file!")
